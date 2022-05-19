@@ -4,12 +4,10 @@
 \alias{pokemon_legendary}
 \title{Determine whether a pokemon is legendary or not}
 \usage{
-pokemon_legendary(pokemon_data, pokemon_name)
+pokemon_legendary(pokemon_name)
 }
 \arguments{
-\item{pokemon_data}{The pokemon database written by Rounak Banik}
-
-\item{pokemon_name}{The name of the pokemon you're looking for, starting with a Capital letter}
+\item{pokemon_name}{The name of the pokemon you're looking for, starting with a Capital letter.}
 }
 \value{
 A string of text stating whether the pokemon is or is not a legendary
@@ -18,8 +16,6 @@ A string of text stating whether the pokemon is or is not a legendary
 Determine whether a pokemon is legendary or not
 }
 \examples{
-data<-read.csv(./pokemon.csv)
-x<-"Arceus"
-pokemon_legendary(data, x)
-"Arceus is a legendary pokemon"
+pokemon_legendary("Turtwig")
+pokemon_legendary("Arceus")
 }

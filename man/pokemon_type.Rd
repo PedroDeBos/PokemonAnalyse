@@ -4,11 +4,9 @@
 \alias{pokemon_type}
 \title{Determine the type of a pokemon}
 \usage{
-pokemon_type(pokemon_data, ...)
+pokemon_type(...)
 }
 \arguments{
-\item{pokemon_data}{The pokemon database written by Rounak Banik}
-
 \item{...}{Individual names of pokemon, starting with a Capital letter}
 }
 \value{
@@ -18,8 +16,5 @@ Multiple strings of text stating what types the inserted pokemon are
 Determine the type of a pokemon
 }
 \examples{
-data<-read_csv("./pokemon.csv")
-pokemon_data(data, "Chimchar", "Drapion")
-[1] "Chimchar is a fire type"
-[1] "Drapion is a poison and a dark type"
+pokemon_type("Chimchar", "Drapion")
 }

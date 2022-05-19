@@ -4,11 +4,9 @@
 \alias{pokemon_stats}
 \title{Determine the stats of an input pokemon}
 \usage{
-pokemon_stats(pokemon_data, pokemon_name)
+pokemon_stats(pokemon_name)
 }
 \arguments{
-\item{pokemon_data}{The pokemon database written by Rounak Banik}
-
 \item{pokemon_name}{The name of the pokemon who's stats need to be analysed, starting with a Capital letter}
 }
 \value{
@@ -18,6 +16,5 @@ a plot containing the HP, atk, def, sp.atk, sp.def and speed of the input pokemo
 Determine the stats of an input pokemon
 }
 \examples{
-data<-read_csv("./pokemon.csv")
-pokemon_stats(data, "Hippowdon")
+pokemon_stats("Hippowdon")
 }

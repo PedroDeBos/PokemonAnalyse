@@ -5,8 +5,7 @@
 #' @return Multiple strings of text stating what types the inserted pokemon are
 #' @export
 #'
-#' @examples
-#' pokemon_data(data, "Chimchar", "Drapion")
+#' @examples pokemon_type("Chimchar", "Drapion")
 pokemon_type<-function(...){
   arguments<-list(...) #Storing all arguments as a list
   for (x in arguments) #Making a command which repeats for all arguments in the list
