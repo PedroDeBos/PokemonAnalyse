@@ -1,4 +1,5 @@
-pokemon_type<-function(...){
+pokemon_type<-function(pokemon_data, ...){
+  pokemon<-pokemon_data
   arguments<-list(...) #Storing all arguments as a list
   for (x in arguments) #Making a command which repeats for all arguments in the list
   { if (is.na(pokemon$type2[pokemon$name==x])) #Determening whether the pokemon has 1 or 2 types, giving the appropriate message based on this
