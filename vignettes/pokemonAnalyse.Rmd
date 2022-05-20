@@ -21,4 +21,34 @@ library(PokemonAnalyse)
 
 ## PokemonAnalyse is a mock R-package, created to prove PedroDeBos' ability in creating packages
 
-The package contains a handful of functions to analyse the pokemon database created by Rounak Banik on Kaggle. These functions, pokemon_type, pokemon_stats, pokemon_legendary and pokemon_weakness, help finding specific details about pokemon without having to scan the database yourself
+The package contains a handful of functions to analyse the pokemon database created by Rounak Banik on Kaggle. These functions, pokemon_type, pokemon_stats, pokemon_legendary and pokemon_weakness, help finding specific details about pokemon without having to scan the database yourself.
+
+
+### Input
+
+Input for all commands is the same, the name of the pokemon who's stats/type/etc. you want to discovered, given as a character to the command. Every pokemon name is required to start with a capital letter. Thus, a command should look like this:
+
+```{r}
+pokemon_legendary("Hippowdon")
+```
+
+### Output
+
+The commands "pokemon_legendary" and "pokemon_type" both give a string of text as output, as seen below:
+
+```{r}
+pokemon_type("Articuno")
+
+pokemon_legendary("Articuno")
+```
+
+The commands pokemon_stats and pokemon_weakness both give a plot as output
+
+```{r}
+pokemon_stats("Articuno")
+
+pokemon_weakness("Articuno")
+```
+
+
+
