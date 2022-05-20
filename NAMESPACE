@@ -3,3 +3,4 @@
 export(pokemon_legendary)
 export(pokemon_stats)
 export(pokemon_type)
+export(pokemon_weakness)

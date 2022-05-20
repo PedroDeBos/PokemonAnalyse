@@ -21,4 +21,4 @@ library(PokemonAnalyse)
 
 ## PokemonAnalyse is a mock R-package, created to prove PedroDeBos' ability in creating packages
 
-The package contains a handful of functions to analyse the pokemon database created by Rounak Banik on Kaggle. These functions, pokemon_type, pokemon_stats and pokemon_legendary, help finding specific details about pokemon 
+The package contains a handful of functions to analyse the pokemon database created by Rounak Banik on Kaggle. These functions, pokemon_type, pokemon_stats, pokemon_legendary and pokemon_weakness, help finding specific details about pokemon without having to scan the database yourself
