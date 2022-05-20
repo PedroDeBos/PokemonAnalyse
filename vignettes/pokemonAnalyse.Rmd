@@ -1,0 +1,24 @@
+---
+title: "pokemonAnalyse"
+author: "Pedro de Bos"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{pokemonAnalyse}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup, echo-FALSE}
+library(PokemonAnalyse)
+```
+
+## PokemonAnalyse is a mock R-package, created to prove PedroDeBos' ability in creating packages
+
+The package contains a handful of functions to analyse the pokemon database created by Rounak Banik on Kaggle. These functions, pokemon_type, pokemon_stats and pokemon_legendary, help finding specific details about pokemon 
