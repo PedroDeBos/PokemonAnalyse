@@ -29,7 +29,7 @@ The package contains a handful of functions to analyse the pokemon database crea
 Input for all commands is the same, the name of the pokemon who's stats/type/etc. you want to discovered, given as a character to the command. Every pokemon name is required to start with a capital letter. Thus, a command should look like this:
 
 ```{r}
-pokemon_legendary("Hippowdon")
+pokemon_legendary("Bidoof")
 ```
 
 ### Output
@@ -37,6 +37,8 @@ pokemon_legendary("Hippowdon")
 The commands "pokemon_legendary" and "pokemon_type" both give a string of text as output, as seen below:
 
 ```{r}
+pokemon_type("Articuno")
+
 pokemon_legendary("Articuno")
 ```
 
