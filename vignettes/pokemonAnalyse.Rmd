@@ -50,5 +50,3 @@ pokemon_stats("Articuno")
 pokemon_weakness("Articuno")
 ```
 
-
-
