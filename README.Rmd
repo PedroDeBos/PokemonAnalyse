@@ -1,0 +1,64 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# PokemonAnalyse
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of PokemonAnalyse is to make analysing the "Pokemon" dataset easier
+
+## Installation
+
+You can install the development version of PokemonAnalyse from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("PedroDeBos/PokemonAnalyse")
+```
+
+## Functions
+
+This package includes 4 functions, which will all be shown including examples below. Important is that all functions rely on the pokemon's name being spelled with a __capital letter__
+
+__pokemon_legendary__: States whether the selected pokemon is legendary or not
+
+```{r example}
+library(PokemonAnalyse)
+pokemon_legendary("Mewtwo")
+pokemon_legendary("Charizard")
+```
+
+__pokemon_type__: States the type(s) of the selected pokemon
+```{r}
+pokemon_type("Groudon")
+pokemon_type("Gengar")
+```
+
+__pokemon_stats__: Gives a graph of the selected pokemon's stats
+```{r, out.height="60%", out.width="60%"}
+pokemon_stats("Alakazam")
+```
+
+__pokemon_weakness__: Gives a graph of the selected pokemon's weakness'
+```{r, out.height="60%", out.width="60%"}
+pokemon_weakness("Aggron")
+```
+
+## Credits
+Pokemon database was taken from Rounak Banik's [kaggle.com](https://www.kaggle.com/datasets/rounakbanik/pokemon) under the CC0 license
+
+Functions were written by Pedro de Bos
+
