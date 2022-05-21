@@ -37,8 +37,6 @@ pokemon_legendary("Hippowdon")
 The commands "pokemon_legendary" and "pokemon_type" both give a string of text as output, as seen below:
 
 ```{r}
-pokemon_type("Articuno")
-
 pokemon_legendary("Articuno")
 ```
 

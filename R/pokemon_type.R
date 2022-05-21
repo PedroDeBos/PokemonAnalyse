@@ -14,7 +14,7 @@ pokemon_type<-function(...){
     else {
     output<-(paste0(pokemon$name[pokemon$name==x], " is a ", pokemon$type1[pokemon$name==x], " and a ", pokemon$type2[pokemon$name==x], " type"))
     }
-  list(all_pokemon)
+  all_pokemon<-list()
   all_pokemon[[x]]<-output
   }
   print(all_pokemon)
