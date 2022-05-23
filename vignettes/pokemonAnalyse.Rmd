@@ -1,5 +1,5 @@
 ---
-title: "pokemonAnalyse"
+title: "PokemonAnalyse"
 author: "Pedro de Bos"
 output: rmarkdown::html_vignette
 vignette: >
