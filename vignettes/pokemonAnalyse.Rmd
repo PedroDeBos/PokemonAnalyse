@@ -3,7 +3,7 @@ title: "PokemonAnalyse"
 author: "Pedro de Bos"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{pokemonAnalyse}
+  %\VignetteIndexEntry{PokemonAnalyse}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
