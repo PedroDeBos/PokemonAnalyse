@@ -16,7 +16,7 @@ You can install the development version of PokemonAnalyse from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("PedroDeBos/PokemonAnalyse")
+devtools::install_github("PedroDeBos/PokemonAnalyse", build_vignettes = TRUE)
 ```
 
 ## Functions
